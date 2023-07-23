@@ -1,0 +1,10 @@
+.form-register {
+    width: 20%;
+    margin: 20px auto;
+    margin-top: 10%;
+}
+
+.form-register mat-form-field {
+    width: 100%;
+}
+

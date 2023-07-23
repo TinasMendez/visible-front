@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.form-personalinfo mat-form-field{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.checkbox-interests1 mat-checkbox{
+    display: grid;
+    margin-top: 3px;   
+    padding-right: 15px;
+}
+
+.checkbox-interests2 mat-checkbox{
+    font-size: 40px;
+    display: grid;
+    margin-top: 3px;   
+    padding-right: 15px;
+}
+
+
+.second-container {
+    background-color: #e0e0e0;
+}
+
+.third-container {
+    background-color: #e0e0e0;
+}
+
+
+.button{
+    margin-bottom: 10%;
+}

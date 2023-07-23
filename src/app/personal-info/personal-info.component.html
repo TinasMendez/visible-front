@@ -1,0 +1,82 @@
+<div class="container">
+<!--Form-->
+        <div class="first-container">
+            <form class="form-personalinfo">
+                <mat-form-field>
+                    <mat-label>Nombre</mat-label>
+                    <input [(ngModel)]="nombre" name="nombre" type="text" matInput placeholder="Ex. Nicolas">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Apellido</mat-label>
+                    <input [(ngModel)]="apellido" name="apellido" type="text" matInput placeholder="Ex. Rodriguez">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>País</mat-label>
+                    <input [(ngModel)]="pais" name="text" type="text" matInput placeholder="Ex. Colombia">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Género</mat-label>
+                    <input [(ngModel)]="genero" name="genero" type="text" matInput placeholder="Femenino">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Fecha de Nacimiento</mat-label>
+                    <input [(ngModel)]="date" name="date" type="date" matInput>
+                </mat-form-field>
+            </form>
+        </div>
+
+<!--Interests checkbox-->
+    <section class="checkbox-interests1">
+        <div class="second-container">
+
+                <mat-checkbox [(ngModel)]="consulting">Consultoría y estrategia empresarial</mat-checkbox>
+                
+                <mat-checkbox [(ngModel)]="AI">Inteligencia Artificial</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Startups">Emprendimiento y startups</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Tech">Tecnología y transformación digital</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Marketing">Marketing y publicidad</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="ArtCulture">Arte y cultura</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Leadership">Liderazgo y gestión</mat-checkbox>
+        </div>
+    </section>
+
+    <section class="checkbox-interests2">
+    
+        <div class="third-container">
+
+                <mat-checkbox [(ngModel)]="ProfDevelopment">Desarrollo profesional y habilidades laborales</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="FinanceAccounting">Finanzas y contabilidad</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="HumanResources">Recursos humanos</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="HealthWellness">Salud y bienestar</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="DataScience">Ciencia de datos y analítica</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Goverment">Gobierno y sector público</mat-checkbox>
+
+                <mat-checkbox [(ngModel)]="Other">Otro</mat-checkbox>
+        </div>
+    </section>
+
+        
+<!--Button-->
+    <div class="button">
+        <button mat-flat-button color="primary" (click)="navigateToProfilingPage()">Siguiente</button> 
+    </div>    
+    
+
+
+
+
+

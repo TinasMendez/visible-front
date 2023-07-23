@@ -1,0 +1,31 @@
+.introtext{
+    margin-top: 20px;
+}
+
+.form-profiling mat-form-field{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 150px;
+    flex-flow: wrap;
+}
+
+.form-profiling {
+    width: auto;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 25%;
+}
+
+
+.LinkedIn mat-form-field{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 150px;
+}
+
+.LinkedIn {
+    margin-left: 30%;
+    margin-top: 15px;
+}

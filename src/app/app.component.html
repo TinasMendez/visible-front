@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <span class="logo">Visible</span>
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/sign-up']">Registro</button>
+    <button mat-menu-item [routerLink]="['/personal-info']">Datos Personales</button>
+    <button mat-menu-item [routerLink]="['/profiling']">Perfilación</button>
+    <button mat-menu-item [routerLink]="['/profile-sug']">Sugerencias para tu perfil</button>
+    <button mat-menu-item [routerLink]="['/themes']">Temas</button>
+    <button mat-menu-item [routerLink]="['/sub-themes']">Sub-Temas</button>
+    <button mat-menu-item [routerLink]="['/content-generator']">Generador de contenido</button>
+
+  </mat-menu>
+</mat-toolbar>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

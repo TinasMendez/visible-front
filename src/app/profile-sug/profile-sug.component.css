@@ -1,0 +1,11 @@
+.introtext{
+    margin-top: 20px;
+}
+
+.about mat-form-field{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 150px;
+    flex-flow: wrap;
+}
